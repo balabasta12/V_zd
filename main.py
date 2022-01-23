@@ -50,6 +50,12 @@ def flat_generator(nested_list_1):
 			yield i
 
 
-for item in flat_generator(nested_list_1):
-	print(item)
+# for item in flat_generator(nested_list_1):
+# 	print(item)
+
+x = list(flat_generator(nested_list_1))  # Плоское представление
+print(x)
+
+# flat_list = [item for item in flat_generator(nested_list_1)]
+# print(flat_list)
 
