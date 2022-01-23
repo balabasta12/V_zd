@@ -6,8 +6,7 @@ nested_list = [
 
 
 class FlatIterator:
-	"""задагние 1 итератор"""
-
+	"""Задание 1 итератор"""
 	def __init__(self, nested_list):
 		self.nested_list = nested_list
 		self.list_len = len(self.nested_list)
@@ -42,9 +41,9 @@ nested_list_1 = [
 	[1, 2, None],
 ]
 
+
 def flat_generator(nested_list_1):
 	"""Задание 2 генератор"""
-
 	for item in nested_list_1:
 		for i in item:
 			yield i
